@@ -1,0 +1,87 @@
+/* .qwigley-regular {
+  font-family: "Qwigley", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+
+    background-color: black;
+    background-image: url('https://i.pinimg.com/736x/61/b6/84/61b68438ffaefd8c97daaffa53358f00.jpg');
+    background-position: center;
+
+    user-select: none;
+}
+
+
+#card{
+    max-width: 400px;
+    height: 100%;
+    overflow-y: auto;
+    margin: auto;
+    
+}
+
+#textos{
+    min-height: 100%;
+    padding-top: 70px;
+    padding-bottom: 80px;
+
+    background-image: url("../imagens/c.avif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+#titulo{
+    margin-bottom:30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: rgb(179, 43, 133);
+
+    width: 300px;
+    text-align: center;
+    font-family: "Rancho", cursive;
+    
+    font-size: 2.4em;
+}
+
+#text{
+    max-width:300px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-decoration: underline;
+    text-indent: 16px;
+    text-align: justify;
+
+    line-height: 32px;
+    font-size: 24px;
+    font-family: "Rancho", cursive;
+
+    color:  rgb(179, 43, 133);
+}
